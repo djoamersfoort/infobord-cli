@@ -1,5 +1,5 @@
-from infobord.mqtt_state import MQTTState
-from infobord.frame_sys import FrameSys
+from mqtt_state import MQTTState
+from frame_sys import FrameSys
 
 
 def main():
@@ -11,5 +11,5 @@ def main():
     state.connect()
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
