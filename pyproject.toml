@@ -1,0 +1,22 @@
+[project]
+name = "infobord"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Wiebe Beeftink",email = "wipeautcrafter@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "paho-mqtt (>=2.1.0,<3.0.0)"
+]
+
+[project.scripts]
+infobord = "infobord.main:main"
+
+[tool.poetry]
+packages = [{include = "infobord", from = "src"}]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
