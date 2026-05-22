@@ -7,7 +7,7 @@ BITLAIR_URL = "https://dashboard.bitlair.nl/d/000000001/bitlair?orgId=1&kiosk=1&
 class FrameSys:
     def _run(self, args: list[str]):
         proc = subprocess.run(args)
-        if proc.returncode > 0:
+        if proc.returncode != 0:
             raise ChildProcessError("Subprocess exited with non-zero code.")
 
     def _set_url(self, url: str):
