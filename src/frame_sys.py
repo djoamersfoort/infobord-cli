@@ -1,7 +1,7 @@
 import subprocess
 
 DJO_URL = "https://docs.google.com/presentation/d/e/2PACX-1vQJBiddvZZDcDDwfcJYjOHc3PNARrlw4m5IlrwLgu61_yyKbdObbicb_Q3sU5-O5WliC2KJ_HzdCjQr/pubembed?rm=minimal&start=true&loop=true&delayms=15000"
-BITLAIR_URL = "https://bitlair.nl/Hoofdpagina"
+BITLAIR_URL = "https://dashboard.bitlair.nl/d/000000001/bitlair?orgId=1&kiosk=1&_dash.hideTimePicker=true&from=now-6h&to=now&timezone=Europe/Amsterdam&refresh=10s"
 
 
 class FrameSys:
